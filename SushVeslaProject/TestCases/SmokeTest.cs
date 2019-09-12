@@ -9,7 +9,7 @@ using System;
 
 namespace SushVeslaProject.TestCases
 {
-    class SmokeTest
+    public class SmokeTest
     {
         IWebDriver driver = new ChromeDriver();
         [Test]
