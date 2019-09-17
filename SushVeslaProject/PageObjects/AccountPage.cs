@@ -15,7 +15,7 @@ namespace SushVeslaProject.PageObjects
         [FindsBy(How=How.XPath, Using = "//input[contains(@class, 'btn-primary')]")]
         [CacheLookup]
         public IWebElement Submit { get; set; }
-        [FindsBy(How = How.XPath, Using = "//*[@id='collapse1_2']/div[1]/ul/li[2]/a")]
+        [FindsBy(How = How.XPath, Using = "//li[contains(@class, 'dish-downlevel-item dish-item-16')]")]
         [CacheLookup]
         public IWebElement SushiSets { get; set; }
         [System.Obsolete]

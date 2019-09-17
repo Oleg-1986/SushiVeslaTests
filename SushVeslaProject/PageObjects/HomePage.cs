@@ -6,7 +6,7 @@ namespace SushVeslaProject.PageObjects
 {
     class HomePage
     {       
-        [FindsBy(How = How.XPath, Using = "//*[@id='page']/div[1]/header/div/div[3]/div/div[2]/div[1]/a[1]")]
+        [FindsBy(How = How.XPath, Using = "//*[@id='site_content']/header/div/div[3]/a[1]/img")]
         [CacheLookup]
         public IWebElement login { get; set; }
         

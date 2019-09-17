@@ -6,7 +6,7 @@ namespace SushVeslaProject.PageObjects
 {
     class Sushi16Page
     {
-        [FindsBy(How =How.Id, Using = "912-plushalf")]
+        [FindsBy(How =How.Id, Using = "//a[@id='998 - plushalf']")]
         [CacheLookup]
         public IWebElement PlusElement { get; set; }
         [FindsBy(How=How.Id, Using = "basket-order")]
